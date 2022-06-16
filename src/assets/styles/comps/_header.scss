@@ -1,0 +1,54 @@
+.header-container {
+
+    background-color: $bkg;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 206px;
+
+    order: 0;
+    flex-grow: 0;
+
+
+    h1 {
+
+        
+        padding: 0px;
+        padding-bottom: 19px;
+        margin: 0px;
+        gap: 658px;
+        
+        font-size: 42px;
+        
+        @include insideMainContainer;
+        @include fontCss;
+    }
+
+
+    .first-header-paragraph {
+
+        @include insideMainContainer;
+
+        height: 100%;
+        margin-top: 19px;
+
+
+        img {
+            background-image: url($imgFak);
+            width: 200px;
+            height: 158px;
+            background-repeat: no-repeat;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+
+        }
+
+    }
+
+
+}

@@ -1,0 +1,52 @@
+//layouts
+
+@mixin mobile-layout {
+    
+    @media (max-width: $mobile-breakpoint) {
+
+        @content;
+
+    }
+    
+}
+
+@mixin small-tablet-layout {
+    
+    @media (min-width: $small-tablet-breakpoint) {
+        
+        @content;
+        
+    }
+    
+}
+
+@mixin tablet-layout {
+    
+    @media (min-width: $tablet-breakpoint) {
+        
+        @content;
+        
+    }
+    
+}
+
+
+//Auto css
+
+@mixin insideMainContainer {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 28px;
+    
+}
+
+@mixin fontCss {
+    font-family: 'Lato';
+    font-style: normal;
+    color: $fontColor;
+    font-weight: 700;
+    line-height: 100%;
+}
