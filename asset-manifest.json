@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Adzz/static/css/main.ae58b070.css",
+    "main.js": "/Adzz/static/js/main.de5ac96b.js",
+    "static/js/787.4a971bff.chunk.js": "/Adzz/static/js/787.4a971bff.chunk.js",
+    "index.html": "/Adzz/index.html",
+    "main.ae58b070.css.map": "/Adzz/static/css/main.ae58b070.css.map",
+    "main.de5ac96b.js.map": "/Adzz/static/js/main.de5ac96b.js.map",
+    "787.4a971bff.chunk.js.map": "/Adzz/static/js/787.4a971bff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae58b070.css",
+    "static/js/main.de5ac96b.js"
+  ]
+}
